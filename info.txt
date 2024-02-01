@@ -1,2 +1,18 @@
 {"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5057310720, "ip_externo": "127.0.0.1"}
 {"latencia": 0, "ip_interno": "N/A"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5022011392, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "N/A"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5245960192, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "N/A"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5241548800, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "N/A"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 4957220864, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "127.0.1.1"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5097168896, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "127.0.1.1"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5228879872, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "127.0.1.1"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5221666816, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "192.168.104.20"}
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5145587712, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "192.168.104.20"}

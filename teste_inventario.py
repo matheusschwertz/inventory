@@ -3,6 +3,7 @@ import time
 import platform
 import psutil
 import json
+import socket
 
 # Intervalo de tempo para coleta de informações (em segundos)
 INTERVALO = 60
@@ -19,14 +20,11 @@ def get_system_info():
 
 def get_internal_ip():
     try:
-        network_info = psutil.net_if_addrs()
-
-        # Verifica se há pelo menos duas interfaces de rede
-        if len(network_info) < 2:
-            raise Exception("Menos de duas interfaces de rede encontradas.")
-
-        # Obtém o IP da segunda interface de rede
-        internal_ip = network_info[1].address
+        # Cria um socket e se conecta a um servidor externo (pode ser um IP público conhecido)
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        internal_ip = s.getsockname()[0]
+        s.close()
         return internal_ip
     except Exception as e:
         print(f"Erro ao obter o IP interno: {e}")
