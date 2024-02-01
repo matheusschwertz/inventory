@@ -1,0 +1,2 @@
+{"sistema_operacional": "Linux", "versao_sistema_operacional": "4.4.0-19041-Microsoft", "processador": "x86_64", "memoria_total": 16853479424, "memoria_livre": 5057310720, "ip_externo": "127.0.0.1"}
+{"latencia": 0, "ip_interno": "N/A"}

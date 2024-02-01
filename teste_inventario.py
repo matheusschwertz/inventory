@@ -1,10 +1,10 @@
+import os
 import time
 import platform
 import psutil
-import requests
 import json
 
-# Intervalo de tempo para envio de informações (em segundos)
+# Intervalo de tempo para coleta de informações (em segundos)
 INTERVALO = 60
 
 def get_system_info():
@@ -38,20 +38,21 @@ def get_network_info():
         "ip_interno": get_internal_ip()
     }
 
-def send_info(info):
-    # Converte o dicionário em JSON
-    json_data = json.dumps(info)
+def clear_screen():
+    os.system("cls" if platform.system() == "Windows" else "clear")
 
-    # Envia a requisição HTTP POST
-    requests.post("http://192.168.104.5:5000", data=json_data)
+def write_to_file(info, filename="info.txt"):
+    with open(filename, "a") as file:
+        file.write(json.dumps(info) + "\n")
 
 if __name__ == "__main__":
     while True:
         system_info = get_system_info()
         network_info = get_network_info()
 
-        # Envia as informações para o servidor
-        send_info(system_info)
-        send_info(network_info)
+        # Escreve as informações em um arquivo
+        write_to_file(system_info)
+        write_to_file(network_info)
 
         time.sleep(INTERVALO)
+        clear_screen()  # Limpa a tela antes de coletar novas informações
